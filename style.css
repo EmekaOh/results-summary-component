@@ -1,0 +1,222 @@
+/* Goole Font - Hanken */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+main {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+/* Reset Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Padding & Margin Attribute */
+.p-0_5 {
+  padding: 8px;
+}
+
+.p-1 {
+  padding: 16px;
+}
+
+.p-1_5 {
+  padding: 24px;
+}
+
+.p-2 {
+  padding: 32px;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pr-0 {
+  padding-right: 0;
+}
+
+.pl-0 {
+  padding-left: 0;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.m-2 {
+  margin: 32px;
+}
+
+.mt-1 {
+  margin-top: 16px;
+}
+
+.mt-2 {
+  margin-top: 32px;
+}
+
+.mr-0_5 {
+  margin-right: 8px;
+}
+
+.mb-1 {
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Flex Attribute */
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Color Attribute */
+.dark-white {
+  color: #AD9CFF;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+/* Font size Attribute */
+.fs-48 {
+  font-size: 48px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+/* Width & Height Attribute */
+.w-80 {
+  width: 80%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+/* Border Class Atrribute */
+.border-r-1 {
+  border-radius: 16px;
+}
+
+.border-r-2 {
+  border-radius: 32px;
+}
+
+.border-r-b-2 {
+  border-radius: 0 0 32px 32px;
+}
+
+/* class Style Attribute */
+.circle-div {
+  width: 150px;
+  height: 150px;
+  background-color: #452CDD;
+  border-radius: 50%;
+}
+
+.left {
+  background-color: #5339F6;
+  text-align: center;
+}
+
+.right {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.reaction {
+  color: hsl(0, 100%, 67%);
+  background-color: #FFF6F5;
+}
+
+.memory {
+  color: hsl(39, 100%, 56%);
+  background-color: #FFFBF2;
+}
+
+.verbal {
+  color: hsl(166, 100%, 37%);
+  background-color: #F2FBFA;
+}
+
+.visual {
+  color: hsl(234, 85%, 45%);
+  background-color: #F3F3FD;
+}
+
+button {
+  border: none;
+  padding: 16px;
+  border-radius: 40px;
+  width: 100%;
+  background-color: #5339F6;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5239f6d5;
+}
+
+@media only screen and (min-width: 600px) {
+  .d-md-flex {
+    display: flex;
+  }
+
+  .border-r-md-2 {
+    border-radius: 32px;
+  }
+
+  .m-md-2 {
+    margin: 32px;
+  }
+
+  main {
+    height: 90vh;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  .shadow {
+    -webkit-box-shadow: 10px 10px 25px -10px rgba(161, 161, 161, 1);
+    -moz-box-shadow: 10px 10px 25px -10px rgba(161, 161, 161, 1);
+    box-shadow: 10px 10px 25px -10px rgba(161, 161, 161, 1);
+  }
+
+  .shadow2 {
+    -webkit-box-shadow: 10px 10px 48px -10px rgba(91, 62, 250, 1);
+    -moz-box-shadow: 10px 10px 48px -10px rgba(91, 62, 250, 1);
+    box-shadow: 10px 10px 48px -10px rgba(91, 62, 250, 1);
+  }
+}
